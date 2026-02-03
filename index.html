@@ -3,7 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IonXTech - Modern Apps</title>
+    <title>ionXtech - Modern Apps</title>
+    <meta name="description" content="ionXtech builds simple, powerful mobile apps: QR Solution, LED Scroller, and Auto Call Scheduler.">
+    <meta name="theme-color" content="#C599B6">
+    <meta property="og:title" content="ionXtech — Modern Apps">
+    <meta property="og:description" content="Building reliable Android apps for modern digital needs. Try our QR generator, LED scroller, and call scheduler.">
+    <meta property="og:image" content="/assets/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image" content="/assets/images/og-image-square.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image" content="/assets/images/og-image-small.png">
+    <meta property="og:image:width" content="600">
+    <meta property="og:image:height" content="315">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="/assets/images/og-image.png">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="/assets/images/IonXtech.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -13,48 +30,54 @@
 
     <div class="hero">
         <div class="container">
-            <h1>IonXTech</h1>
-            <p class="subtitle">Simple technology. Powerful results.</p>
+            <h1>ionXtech</h1>
+            <p class="subtitle">Building reliable Android apps for modern digital needs</p>
         </div>
     </div>
 
-    <main class="container">
+    <main id="main" class="container">
+
+
+        <section class="our-vision container">
+            <div class="card" style="margin-bottom: 30px;">
+                <h3>Our Vision</h3>
+                <p>We develop modern Android utility applications focused on productivity, automation, and simplicity. Our mission is to create fast, secure, and user-friendly mobile apps that help individuals and businesses work smarter every day. We emphasize clean UI design, optimized performance, and scalable technology across all our products.</p>
+            </div>
+        </section>
+
         <h2>Our Applications</h2>
         <div class="app-grid">
             
-            <div class="card qr-style">
+            <div class="card qr-style card-link" data-page="apps/qr-solution/" tabindex="0">
                 <div class="app-header">
-                    <div class="app-icon qr-bg"><i class="fa-solid fa-qrcode"></i></div>
+                    <img src="assets/images/QR Solution Logo.png" alt="QR Solution logo" class="app-logo">
                     <h3>QR Solution</h3>
                 </div>
                 <p>The fastest QR code generator and scanner. Scan history, create codes, and share instantly.</p>
-                <a href="#" class="btn">Download App</a>
-                <div style="margin-top: 15px; font-size: 0.9rem;">
-                    <a href="privacy-policy/qr-solution.html">Read Privacy Policy</a>
+                <div style="margin-top: 15px;" class="card-actions">
+                    <a href="https://play.google.com/store/apps/details?id=com.ionxtech.qrsolution" class="btn" target="_blank" rel="noopener noreferrer">Download App</a>
                 </div>
             </div>
 
-            <div class="card led-style">
+            <div class="card led-style card-link" data-page="privacy-policy/led-scroller.html" tabindex="0">
                 <div class="app-header">
-                    <div class="app-icon led-bg"><i class="fa-solid fa-bolt"></i></div>
+                    <img src="assets/images/LEDScrollerLogo.png" alt="LED Scroller logo" class="app-logo">
                     <h3>LED Scroller</h3>
                 </div>
                 <p>Turn your phone into a scrolling LED sign. Perfect for concerts, airports, and noisy places.</p>
-                <a href="#" class="btn">Download App</a>
-                <div style="margin-top: 15px; font-size: 0.9rem;">
-                    <a href="privacy-policy/led-scroller.html">Read Privacy Policy</a>
+                <div style="margin-top: 15px;" class="card-actions">
+                    <a href="https://play.google.com/store/apps/details?id=com.ionxtech.ledscroller" class="btn" target="_blank" rel="noopener noreferrer">Download App</a>
                 </div>
             </div>
 
-            <div class="card call-style">
+            <div class="card call-style card-link" data-page="privacy-policy/auto-call-scheduler.html" tabindex="0">
                 <div class="app-header">
-                    <div class="app-icon call-bg"><i class="fa-solid fa-phone-volume"></i></div>
+                    <img src="assets/images/CallMessageLogo.png" alt="Auto Call Scheduler logo" class="app-logo">
                     <h3>Auto Call Scheduler</h3>
                 </div>
                 <p>Automate your calls and SMS. Schedule important follow-ups and never miss a connection.</p>
-                <a href="#" class="btn">Download App</a>
-                <div style="margin-top: 15px; font-size: 0.9rem;">
-                    <a href="privacy-policy/auto-call-scheduler.html">Read Privacy Policy</a>
+                <div style="margin-top: 15px;" class="card-actions">
+                    <a href="https://play.google.com/store/apps/details?id=com.ionxtech.autocallscheduler" class="btn" target="_blank" rel="noopener noreferrer">Download App</a>
                 </div>
             </div>
 
