@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const headerHTML = `
     <div class="container navbar">
         <a href="${rootPath}index.html" class="brand">
-            <img src="${rootPath}assets/images/IonXtech.png" alt="ionXtech" class="brand-logo-img">
+            <img src="${rootPath}assets/images/IonXtech.spng" alt="ionXtech" class="brand-logo-img">
             <span class="brand-text">ionXtech</span>
         </a>
         <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle menu">
