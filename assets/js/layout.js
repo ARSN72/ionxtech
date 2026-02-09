@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const footerHTML = `
     <div class="container footer-grid">
         <div class="footer-left">
-            <h4>Demo Address</h4>
-            <p>123 Demo Street, Suite 100<br>Sample City, CA 90210</p>
+            <h4>Company Address</h4>
+            <p>Anoop Nagar<br>Indore, Madhya Pradesh- 452018</p>
         </div>
         <div class="footer-center">
             <div class="footer-links">
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
         <div class="footer-right">
             <div class="footer-company">
-                <h4>Company</h4>
+                <h4>AboutCompany</h4>
                 <ul>
                     <li><a href="${rootPath}privacy-policy/">Privacy Policy</a></li>
                     <li><a href="${rootPath}terms.html">Terms Of Use</a></li>
@@ -69,7 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="container footer-bottom">
         <div class="bottom-left">&copy; 2025 - 2026 ionXtech. All rights reserved.</div>
         <div class="bottom-center">
-            <span class="bottom-links">Privacy Policy | Terms Of Use | FAQs</span>
             <span class="footer-socials" aria-label="Follow ionXtech on social media">
                 <a href="#" class="social" aria-label="Facebook"><img src="${rootPath}assets/images/social-facebook.svg" alt="Facebook" class="social-icon"></a>
                 <a href="#" class="social" aria-label="Instagram"><img src="${rootPath}assets/images/social-instagram.svg" alt="Instagram" class="social-icon"></a>
