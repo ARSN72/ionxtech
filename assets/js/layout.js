@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <li class="nav-item dropdown">
                     <a href="${rootPath}apps/" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Apps</a>
                     <ul class="dropdown-menu" role="menu" aria-label="Apps submenu">
-                        <li><a href="${rootPath}apps/qr-solution/">QR Solution</a></li>
+                        <li><a href="${rootPath}apps/qr-solution/">QR Solutions</a></li>
                         <li><a href="${rootPath}privacy-policy/led-scroller.html">LED Scroller</a></li>
                         <li><a href="${rootPath}privacy-policy/auto-call-scheduler.html">Auto Call Scheduler</a></li>
                     </ul>
